@@ -3,4 +3,5 @@ matplotlib==3.4.3
 numpy==1.19.5
 tensorflow==2.6.0
 opencv-python
-pillow
+Pillow
+streamlit

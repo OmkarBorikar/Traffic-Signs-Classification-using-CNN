@@ -65,7 +65,7 @@ st.sidebar.selectbox(' ',options = class_values)
 if st.button("Identify traffic sign"):
 
     def image_processing(img):
-        model = load_model('archive/training/TSR.h5')
+        model = load_model('TSR.h5')
         data=[]
         image_og = Image.open(uploaded_file)
         # image_og = cv2.imread('image_og.png')
