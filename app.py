@@ -85,4 +85,4 @@ if st.button("Identify traffic sign"):
     st.image(final_plot)
 
     final_res = np.argmax(res,axis=1)
-    st.write(classes[final_res[0]])
+    st.subheader('Uploaded traffic sign is '+classes[final_res[0]])
