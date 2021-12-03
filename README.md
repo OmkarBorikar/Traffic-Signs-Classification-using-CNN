@@ -71,3 +71,9 @@ Upload traffic sign by clicking on Browse Files. For now user need to upload ima
 
 After uploading image click on Identify traffic sign - uploaded image will be displayed with its description as shown below.
 
+![image](https://user-images.githubusercontent.com/82905366/144589208-86e73b0d-597f-46e5-a4d0-f1a19794e1cf.png)
+
+* **Approach**
+
+All 43 folders containing images are stored in one folder named train. Looping through each folder all images and their labels are stored in training data list.
+All images are converted into Grayscale images and resized to dimension 30 x 30.
