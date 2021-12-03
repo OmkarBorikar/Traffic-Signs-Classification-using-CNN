@@ -59,4 +59,15 @@ As mentioned earlier , Training folder contains 43 folder and each folder belong
             
 * **Overview of Web app**
 
-This web app is deployed on streamlit share and can be accessed here - 
+This web app is deployed on streamlit share and can be accessed here - [Traffic Signs Identifier](https://share.streamlit.io/omkarborikar/traffic-signs-classification-using-cnn/main/app.py)
+
+After opening the web app below page will load - 
+
+![image](https://user-images.githubusercontent.com/82905366/144586157-4cdc69a8-33e2-44ab-a1a5-978518b09a49.png)
+
+On side bar list of traffic signs is displayed from which this app can identify signs.
+
+Upload traffic sign by clicking on Browse Files. For now user need to upload image which contains only traffic sign and no other objects. If image contains any other object then app may give incorrect output.
+
+After uploading image click on Identify traffic sign - uploaded image will be displayed with its description as shown below.
+
